@@ -1,0 +1,70 @@
+body{
+	background-color: #000;
+}
+
+.conteiner{
+ display: flex;
+}
+
+.botao1{
+	display: flex;
+	border-radius: 20px;
+	margin-left: 10px;
+	height: 200px;
+	width: 420px;
+	background-color: #B5FFAB;
+	flex: 1;
+	transition: .5 all ease;
+}
+.botao1:hover{
+	flex: 1.2;
+	background-color: rgb(139, 197, 132, 77);
+}
+.botao2{
+	display: flex;
+	border-radius: 20px;
+	margin-left: 10px;
+	height: 200px;
+	width: 420px;
+	background-color: #FCFFAB;
+	flex: 1;
+	transition: .5 all ease;
+}
+.botao2:hover{
+	flex: 1.2;
+	background-color: rgb(195, 197, 132, 77);
+}
+
+.botao3{
+	display: flex;
+	border-radius: 20px;
+	margin-left: 10px;
+	height: 200px;
+	width: 420px;
+	background-color: #F3ABFF;
+	flex: 1;
+	transition: .5 all ease;
+}
+.botao3:hover{
+	flex: 1.2;
+	background-color: rgb(187, 132, 197, 77);
+}
+
+.titulo{
+	font-size: 50px;
+	text-align: center;
+	color: #fff;
+
+
+}
+.nada{
+	margin-top: 10%;
+}
+
+.link{
+	margin-right: px;
+	color: #000;
+	text-decoration: none;
+	font-size: 80px;
+
+}
